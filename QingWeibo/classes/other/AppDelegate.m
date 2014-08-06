@@ -27,11 +27,15 @@
     //1.3 get cur verion from sandbox
     NSString *saveVersion =[[NSUserDefaults standardUserDefaults] objectForKey:key];
     // 1.4 judge
-//    if ([version isEqualToString:saveVersion]) {
-//        //is not first time,show main
-//        self.window.rootViewController=[[MainController alloc]init];
-//        
-//    }else{
+    if ([version isEqualToString:saveVersion]) {
+        // 显示状态栏
+        application.statusBarHidden = NO;
+        
+        
+        //is not first time,show main
+        self.window.rootViewController=[[MainController alloc]init];
+        
+    }else{
         //you are first use this version,show newFeature
         self.window.rootViewController =[[NewFeatureController alloc]init];
         
@@ -41,7 +45,7 @@
         //write is to the sandbox instantly ![optional]
         [[NSUserDefaults standardUserDefaults]synchronize];
     
-//    }
+    }
     
     
     

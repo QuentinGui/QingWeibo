@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0EAB1E2C-DC08-49B6-8835-B2D3B41FEBFB</string>
+	<string>021F9BA0-59D9-49C4-AFE0-9E6E0F4E6B4B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>QingWeibo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C7B18B00-A94A-42A4-8DF6-C43C26B58526</key>
-		<string>https://github.com/QuentinGui/iosProjects.git</string>
+		<key>DF0D6655-89CE-4C22-8FEB-68D85DBB41BE</key>
+		<string>https://github.com/QuentinGui/QingWeibo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>QingWeibo/QingWeibo.xcodeproj/project.xcworkspace</string>
+	<string>QingWeibo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C7B18B00-A94A-42A4-8DF6-C43C26B58526</key>
-		<string>../../..</string>
+		<key>DF0D6655-89CE-4C22-8FEB-68D85DBB41BE</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/QuentinGui/iosProjects.git</string>
+	<string>https://github.com/QuentinGui/QingWeibo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C7B18B00-A94A-42A4-8DF6-C43C26B58526</string>
+	<string>DF0D6655-89CE-4C22-8FEB-68D85DBB41BE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C7B18B00-A94A-42A4-8DF6-C43C26B58526</string>
+			<string>DF0D6655-89CE-4C22-8FEB-68D85DBB41BE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>QingMicro</string>
+			<string>QingWeibo</string>
 		</dict>
 	</array>
 </dict>

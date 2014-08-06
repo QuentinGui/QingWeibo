@@ -53,6 +53,7 @@
 		B73EAF56199105D000E3727E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EAF53199105D000E3727E /* main.m */; };
 		B73EAF591991063C00E3727E /* NewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EAF581991063C00E3727E /* NewFeatureController.m */; };
 		B73EAF5E19910EE700E3727E /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EAF5D19910EE700E3727E /* MainController.m */; };
+		B78E24FD19925CF700D7DA2C /* UIImage+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = B78E24FC19925CF700D7DA2C /* UIImage+Addtion.m */; };
 		B7E754351991D587001F0733 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = B7E754341991D587001F0733 /* description.txt */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +120,9 @@
 		B73EAF581991063C00E3727E /* NewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureController.m; sourceTree = "<group>"; };
 		B73EAF5C19910EE700E3727E /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		B73EAF5D19910EE700E3727E /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		B78E24FB19925CF700D7DA2C /* UIImage+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addtion.h"; sourceTree = "<group>"; };
+		B78E24FC19925CF700D7DA2C /* UIImage+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addtion.m"; sourceTree = "<group>"; };
+		B78E24FE1992665500D7DA2C /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		B7E754341991D587001F0733 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -290,6 +294,7 @@
 		B73EAF49199105D000E3727E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				B78E24FA19925CAB00D7DA2C /* category */,
 				B73EAF5A19910ECA00E3727E /* main */,
 				B73EAF4A199105D000E3727E /* home */,
 				B73EAF4D199105D000E3727E /* newfeature */,
@@ -346,6 +351,7 @@
 				B73EAF51199105D000E3727E /* AppDelegate.m */,
 				B73EAF53199105D000E3727E /* main.m */,
 				B73EAF54199105D000E3727E /* view */,
+				B78E24FE1992665500D7DA2C /* common.h */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -379,6 +385,15 @@
 				B73EAF5D19910EE700E3727E /* MainController.m */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		B78E24FA19925CAB00D7DA2C /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B78E24FB19925CF700D7DA2C /* UIImage+Addtion.h */,
+				B78E24FC19925CF700D7DA2C /* UIImage+Addtion.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +528,7 @@
 				B73EAF591991063C00E3727E /* NewFeatureController.m in Sources */,
 				B73EAF56199105D000E3727E /* main.m in Sources */,
 				B73EAF55199105D000E3727E /* AppDelegate.m in Sources */,
+				B78E24FD19925CF700D7DA2C /* UIImage+Addtion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
