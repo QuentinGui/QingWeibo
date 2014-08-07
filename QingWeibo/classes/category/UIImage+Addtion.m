@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+Addtion.h"
+#import "NSString+GQ.h"
 
 @implementation UIImage (Addtion)
 
@@ -19,14 +20,7 @@
     //在 other文件夹里创建一个 公共宏 头文件
      if (isIphone5) {
 
-        //1.得到文件拓展名
-        NSString *ext = [imageName pathExtension];
-        //2.删除拓展名
-        imageName=[imageName stringByDeletingPathExtension];
-        //3.拼接
-        imageName=[imageName stringByAppendingString:@"-568h@2x."];
-        //4.加回拓展名
-        imageName =[imageName stringByAppendingString:ext];
+         imageName = [imageName fileAppend:@"-568h@2x."];
     }
     
         //UIImage *reImage = [UIImage imageNamed:image];

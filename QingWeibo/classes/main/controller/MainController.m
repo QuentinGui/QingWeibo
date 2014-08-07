@@ -7,8 +7,11 @@
 //
 
 #import "MainController.h"
+#import "Dock.h"
 
-@interface MainController ()
+#define kDockHeight 44
+
+@interface MainController ()<DockDelegate>
 
 @end
 
@@ -22,13 +25,35 @@
    
     self.view.backgroundColor =[UIColor redColor];
     
+    //1 add dock
+    Dock *dock = [[Dock alloc]init];
+    dock.frame =CGRectMake(0, self.view.frame.size.height-kDockHeight, self.view.frame.size.width, kDockHeight);
+    
+    dock.delegate=self;
+    
+    [self.view addSubview:dock];
+    
+    //2 add something to dock
+    [dock addItemWithIcon:@"tabbar_home.png" title:@"首页"];
+    [dock addItemWithIcon:@"tabbar_message_center.png" title:@"消息"];
+    [dock addItemWithIcon:@"tabbar_profile.png" title:@"我"];
+    [dock addItemWithIcon:@"tabbar_discover.png" title:@"广场"];
+    [dock addItemWithIcon:@"tabbar_more.png" title:@"更多"];
+    
+    //3 add other things to controller
     
     
     
     
     
-    
-    
+}
+
+#pragma mark dock的代理方法
+
+-(void)dock:(Dock *)dock itemSelectedFrom:(int)from to:(int)to
+{
+
+
 }
 
 
