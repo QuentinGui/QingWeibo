@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7027BFE1994EA7E009E504C /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027BFD1994EA7E009E504C /* HomeController.m */; };
+		B7027C011994EA8E009E504C /* MoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027C001994EA8E009E504C /* MoreController.m */; };
+		B7027C0419951967009E504C /* GQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027C0319951967009E504C /* GQNavigationController.m */; };
+		B7027C0719951B1B009E504C /* UIBarButtonItem+GQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027C0619951B1B009E504C /* UIBarButtonItem+GQ.m */; };
+		B7027C0C19952636009E504C /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027C0B19952636009E504C /* MeController.m */; };
+		B7027C1119952644009E504C /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027C1019952644009E504C /* MessageController.m */; };
+		B7027C161995264A009E504C /* SquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7027C151995264A009E504C /* SquareController.m */; };
 		B73EAED61990FECB00E3727E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73EAED51990FECB00E3727E /* Foundation.framework */; };
 		B73EAED81990FECB00E3727E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73EAED71990FECB00E3727E /* CoreGraphics.framework */; };
 		B73EAEDA1990FECB00E3727E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73EAED91990FECB00E3727E /* UIKit.framework */; };
@@ -131,6 +138,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7027BFC1994EA7E009E504C /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		B7027BFD1994EA7E009E504C /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		B7027BFF1994EA8E009E504C /* MoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreController.h; sourceTree = "<group>"; };
+		B7027C001994EA8E009E504C /* MoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreController.m; sourceTree = "<group>"; };
+		B7027C0219951967009E504C /* GQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQNavigationController.h; sourceTree = "<group>"; };
+		B7027C0319951967009E504C /* GQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQNavigationController.m; sourceTree = "<group>"; };
+		B7027C0519951B1B009E504C /* UIBarButtonItem+GQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GQ.h"; sourceTree = "<group>"; };
+		B7027C0619951B1B009E504C /* UIBarButtonItem+GQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GQ.m"; sourceTree = "<group>"; };
+		B7027C0A19952636009E504C /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		B7027C0B19952636009E504C /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		B7027C0F19952644009E504C /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
+		B7027C1019952644009E504C /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		B7027C141995264A009E504C /* SquareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareController.h; sourceTree = "<group>"; };
+		B7027C151995264A009E504C /* SquareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareController.m; sourceTree = "<group>"; };
 		B73EAED21990FECB00E3727E /* QingWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73EAED51990FECB00E3727E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B73EAED71990FECB00E3727E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -279,6 +300,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7027BF91994EA37009E504C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7027BFC1994EA7E009E504C /* HomeController.h */,
+				B7027BFD1994EA7E009E504C /* HomeController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B7027BFA1994EA6D009E504C /* more */ = {
+			isa = PBXGroup;
+			children = (
+				B7027BFB1994EA6D009E504C /* controller */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		B7027BFB1994EA6D009E504C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7027BFF1994EA8E009E504C /* MoreController.h */,
+				B7027C001994EA8E009E504C /* MoreController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B7027C0819952636009E504C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B7027C0919952636009E504C /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B7027C0919952636009E504C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7027C0A19952636009E504C /* MeController.h */,
+				B7027C0B19952636009E504C /* MeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7027C0D19952644009E504C /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B7027C0E19952644009E504C /* Controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B7027C0E19952644009E504C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7027C0F19952644009E504C /* MessageController.h */,
+				B7027C1019952644009E504C /* MessageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7027C121995264A009E504C /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				B7027C131995264A009E504C /* Controller */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		B7027C131995264A009E504C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7027C141995264A009E504C /* SquareController.h */,
+				B7027C151995264A009E504C /* SquareController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B73EAEC91990FECA00E3727E = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +524,11 @@
 		B73EAF49199105D000E3727E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				B7027C0819952636009E504C /* Me */,
+				B7027C121995264A009E504C /* Square */,
+				B7027C0D19952644009E504C /* Message */,
+				B7027BFA1994EA6D009E504C /* more */,
+				B788DFF61994E8900064E0C0 /* home */,
 				B78E24FA19925CAB00D7DA2C /* category */,
 				B73EAF5A19910ECA00E3727E /* main */,
 				B73EAF4A199105D000E3727E /* home */,
@@ -484,6 +587,8 @@
 				B73EAF53199105D000E3727E /* main.m */,
 				B73EAF54199105D000E3727E /* view */,
 				B78E24FE1992665500D7DA2C /* common.h */,
+				B7027C0219951967009E504C /* GQNavigationController.h */,
+				B7027C0319951967009E504C /* GQNavigationController.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -612,6 +717,22 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		B788DFF61994E8900064E0C0 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B7027BF91994EA37009E504C /* controller */,
+				B788DFF81994E8900064E0C0 /* view */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B788DFF81994E8900064E0C0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		B78E24FA19925CAB00D7DA2C /* category */ = {
 			isa = PBXGroup;
 			children = (
@@ -619,6 +740,8 @@
 				B78E24FC19925CF700D7DA2C /* UIImage+Addtion.m */,
 				B75E84851993A1B800ACEA0A /* NSString+GQ.h */,
 				B75E84861993A1B800ACEA0A /* NSString+GQ.m */,
+				B7027C0519951B1B009E504C /* UIBarButtonItem+GQ.h */,
+				B7027C0619951B1B009E504C /* UIBarButtonItem+GQ.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -811,14 +934,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7027C011994EA8E009E504C /* MoreController.m in Sources */,
 				B75E840619939B4A00ACEA0A /* Dock.m in Sources */,
 				B75E84841993A02600ACEA0A /* DockItem.m in Sources */,
 				B73EAF5E19910EE700E3727E /* MainController.m in Sources */,
 				B75E84871993A1B800ACEA0A /* NSString+GQ.m in Sources */,
+				B7027C0419951967009E504C /* GQNavigationController.m in Sources */,
 				B73EAF591991063C00E3727E /* NewFeatureController.m in Sources */,
 				B73EAF56199105D000E3727E /* main.m in Sources */,
+				B7027C0719951B1B009E504C /* UIBarButtonItem+GQ.m in Sources */,
+				B7027C161995264A009E504C /* SquareController.m in Sources */,
 				B73EAF55199105D000E3727E /* AppDelegate.m in Sources */,
+				B7027BFE1994EA7E009E504C /* HomeController.m in Sources */,
+				B7027C0C19952636009E504C /* MeController.m in Sources */,
 				B78E24FD19925CF700D7DA2C /* UIImage+Addtion.m in Sources */,
+				B7027C1119952644009E504C /* MessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

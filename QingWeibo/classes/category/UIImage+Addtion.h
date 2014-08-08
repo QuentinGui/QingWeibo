@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Addtion)
+#pragma mark 加载全屏图片
 +(UIImage*)fullScreenImage:(NSString*)imageName;
 @end

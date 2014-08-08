@@ -56,17 +56,20 @@
     CGFloat height =self.frame.size.height; //dock的高度
     CGFloat width = self.frame.size.width/count;//每个item的宽度
     [UIView beginAnimations:nil context:nil];//开始动画
+    
+    if(count==1){
+        //dockItem.selected=YES;
+        //如果不写下面的,会导致首页永远被选中
+        // _selelctedItem =dockItem;
+        //以上两行,相当于
+        [self itemClick:item];
+    }
+    
     for (int i=0; i<count; i++) {
         DockItem * dockItem = self.subviews[i];
         dockItem.frame=CGRectMake(width*i, 0, width, height);
         dockItem.tag = i;
-        if(i==0){
-            //dockItem.selected=YES;
-            //如果不写下面的,会导致首页永远被选中
-           // _selelctedItem =dockItem;
-            //以上两行,相当于
-            [self itemClick:dockItem];
-        }
+       
     }
 
     [UIView commitAnimations];//结束动画
