@@ -45,20 +45,14 @@
 #pragma mark 初始化dock
 -(void)addDockItems
 {
-    //1 add dock
-    Dock *dock = [[Dock alloc]init];
-    dock.frame =CGRectMake(0, self.view.frame.size.height-kDockHeight, self.view.frame.size.width, kDockHeight);
-    
-    dock.delegate=self;
-    
-    [self.view addSubview:dock];
+   
     
     //2 add something to dock
-    [dock addItemWithIcon:@"tabbar_home.png" title:@"首页"];
-    [dock addItemWithIcon:@"tabbar_message_center.png" title:@"消息"];
-    [dock addItemWithIcon:@"tabbar_profile.png" title:@"我"];
-    [dock addItemWithIcon:@"tabbar_discover.png" title:@"广场"];
-    [dock addItemWithIcon:@"tabbar_more.png" title:@"更多"];
+    [_dock addItemWithIcon:@"tabbar_home.png" selectedIcon:@"tabbar_home_selected.png" title:@"首页"];
+    [_dock addItemWithIcon:@"tabbar_message_center.png" selectedIcon:@"tabbar_message_center_selected.png" title:@"消息"];
+    [_dock addItemWithIcon:@"tabbar_profile.png" selectedIcon:@"tabbar_profile_selected.png" title:@"我"];
+    [_dock addItemWithIcon:@"tabbar_discover.png" selectedIcon:@"tabbar_discover_selected.png" title:@"广场"];
+    [_dock addItemWithIcon:@"tabbar_more.png" selectedIcon:@"tabbar_more_selected.png" title:@"更多"];
 
 
 }
@@ -98,32 +92,6 @@
 }
 
 
-
-#pragma mark dock的代理方法
-
--(void)dock:(Dock *)dock itemSelectedFrom:(int)from to:(int)to
-{
-    if(to<0||to>=self.childViewControllers.count) return ;
-    
-    //0. 移除旧控制器的view
-    UIViewController *oldvc = self.childViewControllers[from];
-    [oldvc.view removeFromSuperview];
-    //1.取出即将显示的控制器
-    UIViewController *newVc= self.childViewControllers[to];
-    CGFloat width =self.view.frame.size.width;
-    CGFloat height =self.view.frame.size.height-kDockHeight;
-    newVc.view.frame =CGRectMake(0, 0,width,height);
-    
-    
-    
-    
-    //2.添加新的控制器的view到MainController上面
-    [self.view addSubview:newVc.view];
-   
-    
-    
-    
-}
 
 
 /*
