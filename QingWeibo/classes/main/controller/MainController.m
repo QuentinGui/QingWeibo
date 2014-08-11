@@ -83,7 +83,7 @@
     [self addChildViewController:nav4];
     
     // 5.更多
-    MoreController *more = [[MoreController alloc] init];
+    MoreController *more = [[MoreController alloc] initWithStyle:UITableViewStyleGrouped];
     GQNavigationController *nav5 = [[GQNavigationController alloc] initWithRootViewController:more];
     [self addChildViewController:nav5];
 

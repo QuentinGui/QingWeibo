@@ -28,4 +28,18 @@
     return  [self imageNamed:imageName];
 }
 
+
+#pragma mark 自由拉伸的图片
++(UIImage*)resizedImage:(NSString*)imgName{
+
+    UIImage *image= [UIImage imageNamed:imgName];
+    
+    image = [image stretchableImageWithLeftCapWidth:image.size.width*0.5 topCapHeight:image.size.height*0.5];
+
+    return image;
+
+}
+
+
+
 @end
